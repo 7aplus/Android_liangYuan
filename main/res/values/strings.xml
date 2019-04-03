@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Reporter</string>
+
+    //Strings for bottom navigation view
+    <string name="title_home">My profile</string>
+    <string name="title_dashboard">My insurance</string>
+    <string name="title_notifications">Notifications</string>
+
+    //fragment1_myprofile.xml
+    <string name="Info_name_input">Nick</string>
+    <string name="Info_phone_input">13301248570</string>
+    <string name="Info_email_input">1446463492@qq.com</string>
+
+    //fragment2_listitem.xml
+    <string name="fragment2_item_date_input">2019.3.25</string>
+    <string name="fragment2_item_date">Date:</string>
+    <string name="fragment2_item_name_input">Nick</string>
+    <string name="fragment2_item_name">Name:</string>
+
+    //fragment3_listitem.xml
+    <string name="fragment3_item_date_input">2019.3.26</string>
+    <string name="fragment3_item_name_input">Nick</string>
+    <string name="fragment3_item_feedback">Feedback:</string>
+    <string name="fragment3_item_feedback_input">pass</string>
+
+    //fragment2_report.xml
+    <string name="report_info_name_input">Nick</string>
+    <string name="report_info_number_input">55667788</string>
+    <string name="report_info_date_input">2019.3.24</string>
+    <string name="report_info_phone_input">13301248570</string>
+    <string name="report_info_type_input">1</string>
+
+    //fragment3_detail.xml
+    <string name="Detail_name_input">Nick</string>
+    <string name="Detail_number_input">5566778899</string>
+    <string name="Detail_date_input">2019.3.24</string>
+    <string name="Detail_phone_input">13301248570</string>
+    <string name="Detail_type_input">1</string>
+    <string name="Detail_detail">yoyoyoyoyoyoyo</string>
+
+</resources>

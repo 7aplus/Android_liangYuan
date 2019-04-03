@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/fragment3_item_layout"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fragment3_item_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/fragment3_item_image" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1.2"
+            android:text="@string/fragment3_item_date_input"
+            android:textSize="15dp"
+            android:id="@+id/fragment3_item_date_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/fragment3_item_name_input"
+            android:textSize="18dp"
+            android:id="@+id/fragment3_item_name_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_weight="1.2"
+            android:text="@string/fragment3_item_feedback"
+            android:textSize="16dp"
+            android:id="@+id/fragment3_item_feedback"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_weight="1.2"
+            android:text="@string/fragment3_item_feedback_input"
+            android:textSize="18dp"
+            android:id="@+id/fragment3_item_feedback_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
