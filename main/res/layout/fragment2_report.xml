@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg2"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="200dp"
@@ -14,6 +16,7 @@
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="Name:"
+            android:textStyle="bold"
             />
         <TextView
             android:id="@+id/Report_info_name_input"
@@ -21,6 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:text="@string/report_info_name_input"
+            android:textStyle="bold"
             />
     </LinearLayout>
     <LinearLayout
@@ -32,6 +36,7 @@
         <TextView
             android:id="@+id/Report_info_number"
             android:layout_width="90dp"
+            android:textStyle="bold"
             android:layout_height="wrap_content"
             android:text="Number:"
             />
@@ -39,6 +44,7 @@
             android:id="@+id/Report_info_number_input"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:layout_marginLeft="20dp"
             android:text="@string/report_info_number_input"
             />
@@ -53,6 +59,7 @@
             android:id="@+id/Report_info_date"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:text="Date:"
             />
         <TextView
@@ -60,6 +67,7 @@
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:textStyle="bold"
             android:text="@string/report_info_date_input"
             />
     </LinearLayout>
@@ -73,6 +81,7 @@
             android:id="@+id/Report_info_phone"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:text="Phone:"
             />
         <TextView
@@ -80,60 +89,42 @@
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:textStyle="bold"
             android:text="@string/report_info_phone_input"
             />
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center_horizontal">
-        <TextView
-            android:id="@+id/Report_info_type"
-            android:layout_width="90dp"
-            android:layout_height="wrap_content"
-            android:text="Type:"
-            />
-        <TextView
-            android:id="@+id/Report_info_type_input"
-            android:layout_width="90dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:text="@string/report_info_type_input"
-            />
-    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_gravity="center_horizontal">-->
+        <!--<TextView-->
+            <!--android:id="@+id/Report_info_type"-->
+            <!--android:layout_width="90dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Type:"-->
+            <!--android:textStyle="bold"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/Report_info_type_input"-->
+            <!--android:layout_width="90dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="@string/report_info_type_input"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/Report_Form"
         android:text="Report Form"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:textSize="14dp"
         android:textStyle="bold"/>
-    <LinearLayout
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center_horizontal">
-        <TextView
-            android:id="@+id/Report_form_date"
-            android:layout_width="90dp"
-            android:layout_height="wrap_content"
-            android:text="Date of loss:"
-            />
-        <EditText
-            android:id="@+id/Report_form_date_input"
-            android:layout_width="90dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:ems="10"
-            android:inputType="date"
-            android:textSize="12dp"
-            android:hint="2019.1.1"
-            />
-    </LinearLayout>
+
     <LinearLayout
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -145,16 +136,16 @@
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="Time of loss:"
+            android:textStyle="bold"
             />
-        <EditText
+        <TextView
             android:id="@+id/Report_form_time_input"
-            android:layout_width="90dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:ems="10"
-            android:inputType="time"
-            android:hint="00:00"
-            android:textSize="15dp"
+            android:textSize="10dp"
+            android:text="@string/click"
+            android:textStyle="bold"
             />
     </LinearLayout>
     <LinearLayout
@@ -168,6 +159,7 @@
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="Location:"
+            android:textStyle="bold"
             android:layout_marginLeft="50dp"
             />
         <EditText
@@ -175,7 +167,7 @@
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:hint="Beijing T3"
+            android:hint="@string/hint"
             android:textSize="12dp" />
     </LinearLayout>
     <LinearLayout
@@ -190,21 +182,61 @@
             android:layout_height="wrap_content"
             android:text="Detail Info:"
             android:layout_marginLeft="50dp"
+            android:textStyle="bold"
             />
         <EditText
             android:id="@+id/Report_form_detail_input"
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:hint="I'm not happy"
+            android:hint="@string/hint2"
             android:textSize="12dp" />
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/Photo_form_detail"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/photo"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/Report_button_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/click3"
+            android:onClick="UpdatePhoto"
+            android:text="@string/select" />
+
+    </LinearLayout>
+
+
     <Button
         android:id="@+id/Report_button_submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
+        android:background="@drawable/click3"
         android:text="Submit" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/test"-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text=" 222  "-->
+    <!--android:textStyle="bold" />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/image"-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="wrap_content"/>-->
 
 </LinearLayout>

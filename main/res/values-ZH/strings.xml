@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">保险</string>
+    <string name="username">用户名:</string>
+    <string name="password">密码:</string>
+    <string name="login">登录</string>
+    <string name="warning">登录失败，用户名或密码错误!</string>
+    <string name="t">警告</string>
+    <string name="xiugai">修改</string>
+    <string name="name">姓名：</string>
+    <string name="phone">手机：</string>
+    <string name="email">邮箱：</string>
+    <string name="click">单击此处选择</string>
+    <string name="no1">单击此处添加保单</string>
+    <string name="Report_Form">保单填写</string>
+    <string name="timeof">丢失时间:</string>
+    <string name="location">丢失地点:</string>
+    <string name="detail">详细信息:</string>
+    <string name="photo">照片:</string>
+    <string name="submit">提交</string>
+    <string name="assistant">            若需要帮助，请咨询:</string>
+
+    <string name="yes">确认</string>
+    <string name="nophone">手机不能为空！</string>
+    <string name="noemail">邮箱不能为空！</string>
+    <string name="nolocation">位置不能为空!</string>
+    <string name="noinfor">信息不能为空!</string>
+    <string name="select">选择</string>
+
+    <string name="submitss">提交成功!</string>
+
+    <string name="loginfail">用户名或密码错误，请重试！</string>
+
+
+
+    //Strings for bottom navigation view
+    <string name="title_home">个人信息</string>
+    <string name="title_dashboard">我的报告</string>
+    <string name="title_notifications">通知</string>
+
+    //fragment1_myprofile.xml
+    <string name="Info_name_input">Nick</string>
+    <string name="Info_phone_input">13301248570</string>
+    <string name="Info_email_input">1446463492@qq.com</string>
+
+    //fragment2_listitem.xml
+    <string name="fragment2_item_date_input">2019.3.25</string>
+    <string name="fragment2_item_date">日期：</string>
+    <string name="fragment2_item_name_input">Nick</string>
+    <string name="fragment2_item_name">姓名:</string>
+    <string name="number">编号:</string>
+
+    //fragment3_listitem.xml
+    <string name="fragment3_item_date_input">2019.3.26</string>
+    <string name="fragment3_item_name_input">Nick</string>
+    <string name="fragment3_item_feedback">反馈:</string>
+    <string name="fragment3_item_feedback_input">通过</string>
+
+    //fragment2_report.xml
+    <string name="report_info_name_input">Nick</string>
+    <string name="report_info_number_input">55667788</string>
+    <string name="report_info_date_input">2019.3.24</string>
+    <string name="report_info_phone_input">13301248570</string>
+    <string name="report_info_type_input">1</string>
+
+    //fragment3_detail.xml
+    <string name="Detail_name_input">Nick</string>
+    <string name="Detail_number_input">5566778899</string>
+    <string name="Detail_date_input">2019.3.24</string>
+    <string name="Detail_phone_input">13301248570</string>
+    <string name="Detail_type_input">1</string>
+    <string name="Detail_detail">yoyoyoyoyoyoyo</string>
+    <string name="Choose">请选择上传方式</string>
+    <string name="Takepicture">拍照</string>
+    <string name="Pickpicture">从相册中选择</string>
+    <string name="Back">取消</string>
+    <string name="hint">北京T3</string>
+    <string name="hint2">我丢东西了！~</string>
+    <string name="success">成功了！</string>
+
+</resources>
